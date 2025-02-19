@@ -56,7 +56,7 @@ nodist_include_HEADERS += include/mpio.h include/mpiof.h
 
 # ------------------------------------------------------------------------
 
-SUBDIRS = $(external_subdirs) . test
+SUBDIRS = $(external_subdirs) .
 DIST_SUBDIRS = test test-internal $(external_dist_subdirs)
 
 # for the sake of parallel make and avoiding an excessive number of convenience
